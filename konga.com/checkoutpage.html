@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Out</title>
+    <link rel="icon" href="./images/favicon_1.ico">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="js/jquery-3.2.0.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+</head>
+<body>
+<!--
+    THE CONTENTS ON THE DOCUMENT ARE ENCLOSED ON THIS WRAPPER
+    -->
+<div class="wrapper">
+    <!-- HEADER GOES HERE
+    -->
+    <header class="header">
+        <div class="topheader">
+            <div class="container">
+                <div class="navsize">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="home">Track My Order</a></li>
+                        <li><a href="home">Sell on Konga</a></li>
+                        <li><a href="home">Seller Academy</a></li>
+                        <li><a href="home">Sign Up</a></li>
+                        <li><a href="#"><button class="login">Log in</button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="brandnav">
+                        <div class="logo">
+                            <img src="./images/konga-logo_main.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="brandnav">
+                        <div class="formsearch">
+                            <form>
+                                <div class="forminput">
+                                    <input type="text" placeholder=" Seacrch  for a product, categorie or brand"/>
+                                </div>
+                                <button class="text-uppercase">Search</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-right">
+                    <div class="brandnav">
+                        <div class="cartwrapper">
+                            <div class="items">
+                                <i class="fa fa-heart-o fa-2x"> Liked Items </i>
+                            </div>
+                            <div class="cart">
+                                <a class="cart"><i class="fa fa-shopping-cart  fa-2x"> Cart</i> <span
+                                        class="badge">1</span> </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END OF HEADER  AND NAVBAR
+    -->
+    <!-- MAIN NAVBAR GOES HERE
+            -->
+
+    <section class="container">
+        <div class="row">
+            <div class="hrmenu">
+                <ul class="nav navbar-nav nav-divider">
+                    <li>
+                        <a href="#">Phones and Tablets</a>
+                    </li>
+                    <li><a href="#">Computer Accessories</a> </li>
+                    <li><a href="#">Electronics</a> </li>
+                    <li><a href="#">Konga Fashion</a> </li>
+                    <li><a href="#">Home and Kitchen</a> </li>
+                    <li><a href="#">Baby, Kids and Toys</a> </li>
+                    <li><a href="#">Other Categories</a> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- END OF MAIN NAVBAR
+    -->
+    <!-- BREAK CRUMB CONTAINER-->
+
+    <section class="color1">
+        <section class="container">
+            <div class="row">
+                <div class="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a> </li>
+                        <li><a class="active" href="#"> Shopping Cart</a> </li>
+                        <li><a href="#">Konga Nigeria <i class="fa fa fa-angle-double-right"></i> </a> </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- SHOPPING CART-->
+    <div class="color1">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-9 colborder">
+                    <div class="row">
+                        <h5>
+                            <strong>Shopping Cart</strong>
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7"></div>
+                        <div class="col-md-2">
+                            <h6>
+                                <strong> Price</strong>
+                            </h6></div>
+                        <div class="col-md-2">
+                            <h6>
+                                <strong>Quantity</strong>
+                            </h6>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="imgclass">
+                                <img src="./images/checkout/Camon-CX---2GB-16GB---Gold-6566897.jpg"/>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="link">
+                                <a href="#">Camon CX - 2GB, 16GB - Gold</a>
+                                <p>Sold by OJAYS</p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="paragraph">
+                                        &#8358;70, 000
+                                    </p>
+                                </div>
+                                <div class="col-md-5 colinput">
+                                    <input type="number" value="1"></div>
+                                <div class="col-md-2">
+                                    <i class="removesprite"><a href="#">Remove item</a> </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 space"></div>
+                <div class="col-md-2 metoo">
+                    <div>
+                        <h5>
+                            <strong>
+                                Cart Summary
+                            </strong>
+                        </h5>
+                        <p class="pfont">
+                            Sub-Total (1 item):
+                        </p>
+                        <h3>
+                            &#8358;70, 000
+                        </h3>
+                        <button>Proceed to Checkout</button>
+                        <hr/>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <br/><br/>
+     </div>
+
+
+     <!--
+    SUPPORT TICKET SECTION
+    -->
+
+        <section class="color1"> <section class="bg rh">
+            <section class="container recentlyviewitems ">
+                <div class="">
+                    <div class="row">
+                        <div class="col-md-3 recent">
+                            <div class="">
+                                <h3><strong>Recently Viewd Items</strong></h3>
+                                <p>No recently viewed items</p>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <h3>Recommended For You</h3>
+                                <div class="col-md-3">
+                                    <div class="recom">
+                                        <img src="images/recommeded/T401-Tripple-Sim---Gold-6497055.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="recom">
+                                        <img src="./images/recommeded/T401---Gold-6178331.jpg"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="recom">
+                                        <img src="images/recommeded/W3---8GB---1GB-RAM-5206310_15.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="recom">
+                                        <img src="./images/recommeded/W3---Dual-Sim-6553797.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </section>
+
+
+     <div class="fixed text-right">
+        <a href="#">
+            <img src="images/liveHelp-01-new.png" width="97" height="118">
+        </a>
+    </div>
+    <!--
+    END OF SUPPORT TICKET SECTION
+    -->
+    <!--
+    FOOTER BEGINS HERE
+     -->
+    <footer class="footer">
+        <div class="container containerbg">
+            <div class="img text-center">
+                <i class="imgsprite">
+                </i>
+            </div>
+            <div class="row">
+                <div class="col-md-9 rowup">
+                    <div class="row rwheight">
+                        <div class="hr">
+                            <h6 class="inline">Buying On Konga</h6>
+                            <ul class="nav navbar-nav navbar-right navul">
+                                <li><a href="#">Buyer Safety Centre</a> </li>
+                                <li><a href="#">Konga Buyer Protection</a> </li>
+                                <li><a href="#">How To Shop On Konga</a> </li>
+                                <li><a href="#">Konga Return Policy</a> </li>
+                                <li><a href="#">Delivery</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row rwheight">
+                        <div class="hr">
+                            <h6 class="inline">Konga</h6>
+                            <ul class="nav navbar-nav navbar-right navul">
+                                <li><a href="#">Contact Us</a> </li>
+                                <li><a href="#">About Us</a> </li>
+                                <li><a href="#">Forum</a> </li>
+                                <li><a href="#">Careers</a> </li>
+                                <li><a href="#">Become an Affiliate</a> </li>
+                                <li><a href="#">FAQ</a> </li>
+                                <li><a href="#">Site Map</a> </li>
+                                <li><a href="#">Our Blog</a> </li>
+                                <li><a href="#">e-Gift Voucher</a> </li>
+                                <li><a href="#">Bulk Purchase</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row rwheight1">
+                        <div class="hr">
+                            <h6 class="inline">Payments</h6>
+                            <ul class="nav navbar-nav navbar-right navul pheight">
+                                <li><a href="#">Konga Pay</a> </li>
+                                <li><a href="#">Wallet</a> </li>
+                                <li><a href="#">Pay on Delivery</a> </li>
+                                <li class="payment"> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row rwheight display">
+                        <div class="hr ">
+                            <ul class="nav navbar-nav navbar-right navul">
+                                <li class="payment1"> </li>
+                                <li class ="payment2"> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row display1">
+                        <h6 class="inline">Shipping</h6>
+                        <ul class="list-unstyled list-inline">
+                            <li class="shipping0"></li>
+                        </ul>
+                    </div><br/>
+                    <div class="row">
+                        <ul class="nav navbar-nav  navul">
+                            <li><a href="#">Policies: Terms of Use</a> </li>
+                            <li><a href="#">Privacy</a> </li>
+                            <li><a href="#">Authentic Items</a> </li>
+                            <li><a href="#">Konga Return Policy</a> </li>
+                        </ul><br/>
+                    </div>
+                    <div class="row  ">
+                        <ul class="nav navbar-nav  navul">
+                            <li>Copyright © 2016 &nbsp; <a href="#"> Konga.com</a>. All rights reserved. </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="col-md-2 pull-right rowup">
+                    <div class="row color">
+                        <h5><strong>Shop Easier!</strong></h5>
+                    </div>           <div class="row">
+                    <div class="col-md-5">
+                        <div class="imgicon">
+                            <a class="ico1" href="#">
+                            </a>
+                            <a class="ico2" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 text-justify p">
+                        <p>Download the Konga Mobile App Today</p>
+                    </div>
+                </div>
+                    <div class="row color">
+                        <h5><strong>Newsletter</strong></h5>
+                        <p class="p">Subscribe for Special Offers, Promos & Deals</p>
+                    </div>
+                    <div class="row">
+                        <form class="input">
+                            <input type="text" placeholder="Enter your email address">
+                            <button> Subscribe </button>
+                        </form>
+                    </div><br/>
+                    <div class="row">
+                        <p class="color">
+                            Keep in Touch<br/>
+                            01 460 5555 or 0809 460 5555
+                        </p>
+                    </div>
+
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--
+    END OF FOOTER
+     -->
+    <!--
+    END OF ALL CONTENTS
+     -->
+</div>
+</body>
+</html>

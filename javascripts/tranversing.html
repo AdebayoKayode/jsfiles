@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            hello world
+        </div>
+        <p id="message">
+            we're here for all of us.
+        </p>
+        <p id="editable">editable contents goes here</p>
+        <button id="button" type="submit" onclick="editContent()">Edit content</button>
+    </div>
+    <script>
+        var wrap = document.getElementsByClassName('wrapper');
+        var msg  =document.getElementById("message");
+        console.log(msg.previousElementSibling);
+        var prev = msg.previousElementSibling.contentEditable = true;
+        //console.log(wrap[0].childNodes);
+        //console.log({prev});
+        //
+        var button = document.getElementById('button');
+        var contents = document.getElementById("editable").contentEditable;
+        var arrs = [true, false];
+        function  editContent() {
+            if for (var i = 0; i < arrs.length; i++) {
+                contents =arrs[i];
+            }
+        }
+    </script>
+</body>
+</html>

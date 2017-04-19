@@ -1,0 +1,90 @@
+.bg1 {
+    background: #ffffff!important;
+    height: 160px;
+
+}
+.rh {
+    height: 200px;
+}
+.colborder {
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    width: 900px;
+}
+.color1 {
+    background: rgb(255, 255, 255);
+}
+.metoo {
+    border-top: 2px solid grey;
+ }
+.metoo h3 {
+    color:#bc0000;
+    font-weight: bold;
+    padding-left: 0;
+    font-size: 23px;
+}
+.metoo button {
+    width: 168.59px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #372915;
+    background: #f9a023;
+    border: none;
+}
+.cart {
+    color: #0f0f0f;
+}
+.cart  span {
+    background: #bc0000;
+}
+.link a {
+    font-size: 14px;
+    color: #525252;
+    font-weight: bold;
+}
+.paragraph {
+    font-size: 13px;
+    font-weight: bold;
+    color: #bc0000;
+    margin: 25px 0 0 0;
+}
+.link p {
+   font-size: 14px;
+    color: #525252;
+    margin: 5px 0 0 0;
+}
+.space {
+    width: 60px;
+}
+.colinput input {
+    width: 42px;
+    margin: 25px 0 0 0;
+    color: #372915;
+}
+.metoo h5 {
+    color: #372915;
+}
+
+.removesprite a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    font-size: 0;
+    line-height: 0;
+    background: url(../images/header-footer-sprite.png) no-repeat;
+    background-position: -258px -146px;
+    text-indent: -999em;
+    overflow: hidden;
+    margin: 25px 0 0 0;
+}
+.pfont {
+    font-size: 15px;
+    color: rgba(55, 41, 21, 0.76);
+}
+.recom {
+    height: 250px;
+    width: 191px;
+    padding: 4px 12px;
+    border: 1px solid #efefef;
+}

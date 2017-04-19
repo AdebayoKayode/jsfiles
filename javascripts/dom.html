@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h1>
+			My header
+		</h1>
+		<p id="message">
+			Bla bla bla
+		</p>
+		<div class="content">
+			<ul>
+				<li>A</li>
+				<li>b</li>
+				<li>c</li>
+				<li>d</li>
+ 			</ul>
+		</div>
+
+	</div>
+	
+
+<script type="text/javascript">
+	var msg = document.getElementById('message');
+	var wrap = document.getElementsByClassName("wrapper");
+	var eNodes = wrap[0].childNodes;
+	function graceNodes(arr) {
+		var arrs = [];
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i].nodeType == 1) {
+                arrs.push(arr[i]);
+			}
+
+        }
+        return arrs;
+    }
+    console.log(graceNodes(eNodes));
+</script>
+</body>
+</html>

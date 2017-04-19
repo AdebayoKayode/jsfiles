@@ -1,0 +1,116 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0px auto;
+}
+
+.whitespace {
+    background: #f5efef;
+    height: 20px;
+}
+.header {
+    height: 110px;
+    background: rgba(17, 17, 37, 0.87);
+}
+.navbar, .navbar-default {
+    border-radius: 0px;
+    background-color: rgba(17, 17, 37, 0.87);
+    border: none;
+    color: #ffffff;
+}
+nav   a {
+    color: #ffffff!important;
+    font-size: 16px!important;
+    padding-left: 80px!important;
+    padding-right: 90px!important;
+}
+.p-color {
+    color: rgba(0, 144, 72, 0.9);
+}
+.row1 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.pad {
+     padding-top: 1px;
+}
+.pad p {
+    line-height: 25px;
+ }
+.bg-ico {
+     background: rgba(0, 144, 137, 0.9);
+     margin-left: 80px;
+     width: 957px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+     padding-right: 10px;
+    color: #ffffff;
+}
+.ico-pad {
+    padding-left: 180px;
+
+}
+.row-width {
+    width: 400px!important;
+}
+.article {
+    border: 1px solid rgba(0, 144, 137, 0.9);
+    width: 957px;
+    margin-left: 80px;
+}
+.play {
+    height: 200px;
+    width: 600px;
+    border: 1px solid #adadad;
+    margin-left: 20px;
+   }
+video {
+    border: 1px solid #adadad;
+}
+.section {
+    background: rgba(17, 17, 37, 0.87);
+}
+.colpad {
+    padding-top: 60px;
+ }
+button {
+    width: 40px;
+    height: 40px;
+    transition:1s linear;
+}
+button {
+    background: rgba(17, 17, 37, 0.87);
+    color:#ffffff;
+    border: 0px;
+    margin-top: 5px;
+ }
+button:hover {
+    width:45px;
+    height:45px;
+}
+.twitter {
+    background:rgba(0, 144, 137, 0.9);
+    color: #ffffff;
+}
+.google {
+    background: rgba(177, 22, 8, 0.92);
+    color: #ffffff;
+}
+.content p {
+    color: #ffffff;
+}
+footer {
+    background: #ffffff!important;
+}
+footer a {
+    font-size: medium;
+}
+.li {
+    color: #7777;
+    font-size: 18px;
+}
+.active {
+    background: #adadad!important;
+    height: 44px;
+    margin-top:3px;
+    color: #7777!important;
+}

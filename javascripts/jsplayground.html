@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jasper tutorials</title>
+</head>
+<body>
+
+ <ul id="ulist1">
+     <li>A</li>
+     <li>b</li>
+     <li>c</li>
+     <li>d</li>
+     <li>e</li>
+ </ul>
+ <ul id="ulist2">
+
+ </ul>
+<input id="clickme"   type="submit" value="Click Me">
+<script>
+    document.onclick = init;
+    function init() {
+        var button = document.getElementById("clickme");
+        button.onclick = clickMe();
+    }
+    var ul1 = document.getElementById("ulist1");
+    var ul2 = document.getElementById("ulist2");
+    function clickMe() {
+        for (var li = ul1.getElementsByTagName("li"); li.length > 0;) {
+            ul2.appendChild(li[0]);
+        }
+    }
+
+</script>
+,S
+</body>
+</html>

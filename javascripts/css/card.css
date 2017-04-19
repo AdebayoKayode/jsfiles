@@ -1,0 +1,26 @@
+body {
+    background: #ffffff;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.card {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #222222;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+}
+.thumbnail {
+    border:none;
+    padding: 0px;
+    margin-bottom: 0;
+}
+.card .contents {
+    padding: 10px;
+}
+.card .thumbnail img {
+    height: 200px;
+    width: 200px;
+}

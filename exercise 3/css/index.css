@@ -1,0 +1,244 @@
+.section1 {
+    background: rgba(15, 82, 109, 0.9);
+}
+nav  {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background: transparent!important; */
+}
+nav ul {
+    /* padding-top: 55px; */
+ }
+nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 10px!important; */
+    color: #ffffff;
+}
+nav ul li a {
+    color: #ffffff;
+}
+nav ul li a:hover {
+    background: rgba(219,201,201,0.9);
+}
+.header {
+    background: #219ad6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* padding-top: 45px; */
+    /* padding-bottom: 45px; */
+    height: 240px;
+    align-items: center;
+ }
+.header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    height: 100px;
+    width: 100px;
+}
+.header div i {
+    padding-top: 12px;
+}
+.img-circle {
+}
+.section2 {
+    height: 150px;
+ }
+.row1 {
+    display: flex;
+    align-self: center;
+    border:2px solid #1b6d85;
+    width: 100%;
+    margin-left: 30px;
+}
+.row1 {
+    display: flex;
+    align-self: center;
+     width: 722px;
+    margin-left: 30px;
+
+}
+.fa-7x {
+    font-size: 40px;
+}
+.colb {
+    /* border: 2px solid #9d9d9d; */
+    display: flex;
+    justify-content: flex-end;
+    /* padding-top: 47px; */
+    /* padding-bottom: 47px; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+}
+.h3 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #929090;
+}
+.row2 .col-md-3 {
+    margin-left: 22px;
+}
+.row2 {
+    padding-bottom: 40px;
+}
+.pad {
+    /* padding-top: 100px; */
+}
+br {
+    padding-top: 30px;
+}
+.lineheight {
+    line-height: 21px;
+}
+.space {
+    height: 40px!important;
+}
+.row3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    /* width: 722px; */
+    margin-left: 30px;
+    height: 200px;
+}
+
+.img-size {
+    height: 110px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    background: #078bbd;
+    color: #ffffff!important;
+    border: 0px;
+}
+.img-size img{
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+}
+.img-size i {
+    padding-top: 28px;
+}
+.note {
+    background: #176b8c;
+    border: 2px solid #0a4f82;
+    opacity: 0.7;
+ }
+.img1 {
+    margin-right: -13px!important;
+    margin-left: 10px;
+}
+.zindex {
+    /* position: relative; */
+    /* z-index: 10; */
+}
+.zindex1 {
+    position: absolute;
+     z-index: 1;
+}
+.col12 {
+    display: flex;
+    justify-content: center;
+}
+.carpad {
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #176b8c;
+}
+.carpad1 {
+    margin-top: 30px;
+    margin-right: 100px;
+    color: #176b8c;
+}
+.fa-7x {
+    font-size: 7.0em;
+}
+.footer {
+    display: flex;
+    background: rgba(15, 82, 109, 0.9);
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    /* padding-top:50px; */
+    /* padding-bottom:50px; */
+    color: #ffffff;
+    width: 100%;
+    /* margin-left: -16px; */
+}
+.bder {
+
+border: 2px solid lightgrey;
+
+border-top: none;
+
+border-bottom: none;
+
+display: flex;
+
+justify-content: center;
+
+align-content: center;
+
+align-items: center;
+}
+.active {
+    background: #ddd!important;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+ .pclass p {
+     font-size: larger;
+     font-family: sans-serif;
+     color: grey;
+ }
+ .img-disc {
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     height: 400px;
+ }
+ .hr {
+      width: 80%;
+ }
+.hr1 {
+    width: 100%;
+}
+ .hr1 hr {
+     border: 2px solid rgba(35, 154, 189, 0.72);
+ }
+   .pr {
+     display: flex;
+       justify-content: center;
+ }
+.image {
+    height: 155px;
+    width: 170px;
+    border: 2px solid #9d9d9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pclas {
+    font-size: larger;
+    font-family: sans-serif;
+    color: grey;
+}
+.img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    border: 3px solid rgba(33, 154, 214, 0.69);
+}

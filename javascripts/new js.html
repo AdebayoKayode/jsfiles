@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Condition</title>
+
+</head>
+<body>
+<h1>
+    Conditions
+</h1>
+<p id="message">
+
+</p>
+ <script src="js/json.js"></script>
+<script >
+    /*var msg = document.getElementById('message');
+    var num = prompt("Bank details: ");
+    //while (num.length < 8) {
+    //    num = "0" + num;
+    //}
+    do {
+        num = "0" + num;
+    }
+    while (num.length < 8)
+    msg.textContent = num;*/
+
+    //switch statement
+   /* var msg = document.getElementById('message');
+    var name = prompt('What is your name: ');
+    var output = "";
+    switch (name) {
+        case "jane":
+            output = "Hello" + " " + "Jane ";
+            break;
+        case "joe":
+            output = "Hello" + " " + "Joe ";
+            break;
+        case "james":
+            output = "Hello" + " " + "James ";
+            break;
+        case "john":
+            output = "Hello" + " " + "John ";
+            break;
+        case "happy":
+            output = "Hello" + " " + "happy ";
+            break;
+        default: output = "Hi, Stranger" + " ";
+    }
+    output = output + name + "!";
+    msg.textContent = output;*/
+
+   //FUNCTIONS
+   /* function  factorial(num) {
+        var msg = document.getElementById('message');
+        var num = prompt("Give me a number", 10);
+        var outPut = 1;
+        if (num.length === 0 || isNaN(num)) {
+            msg.textContent = "Please enter a valid number";
+        }
+        else {
+            for (var i = 2; i <= num; i++) {
+                outPut *= i;
+
+            }
+
+        }
+        return outPut;
+    }*/
+    //console.log(factorial(5));
+    /*function product(a,b) {
+        var result = a * b;
+        return result;
+    }
+    console.log(product(5,6));*/
+    //var msg = document.getElementById('message');
+
+    /*var arrs = [];
+
+    arrs.push(10);
+     arrs.push(20);
+
+    arrs.push(20);
+
+    arrs.unshift(5);
+
+    console.log(arrs);
+
+    arrs.push(30);
+     console.log(arrs);
+     arrs.unshift(40);
+     console.log(arrs);
+      arrs.sort(function (a,b) {
+          return a - b;
+
+      });
+      msg.innerHTML = "<p> new array " + arrs +" </p>";*/
+    /*var arrs = ["bisi" , "joe" , "doro" , "victor" , "sullivan" ,"toy" , "grace"];
+     arrs.sort(function (a,b) {
+        re =turn b.length - a.length;
+    });
+    msg.innerHTML  = "<p>This is sorted "+ arrs +"  </p>"*/
+    /*function showMessage(a,b,c){
+        var s = a + " " + b + " " + c;
+        console.log(s);
+        msg.textContent = s;
+    }
+    //showMessage("hello", "from the", "other side", "i'll see you again" );
+
+    function showMessage2() {
+        var outPut = "";
+        for (i = 0; 1 < arguments.length; i++); {
+            outPut += arguments[i] + " ";
+        }
+        console.log(outPut);
+    }
+    showMessage2("hello");
+    showMessage2("hello from");
+    showMessage2("hello from the other side");*/
+    /*var msg = document.getElementById("message");
+    var myCar = {};
+    myCar.make = "Ford";
+    myCar.model = "Mustang";
+    myCar.color = "Black";
+    myCar.display = function () {
+        msg.innerHTML += "<p>Your car is a "+this.color +
+            " " + this.make + " "+ this.model + "  </p>"
+    }
+    var myCar2 = {
+        make: "dodge",
+        model: "charge",
+        color: "red",
+        display: function () {
+            msg.inn += "<p> Your car is a " + this.color + " " + this.make + " " + this.model + "</p>"
+        }
+    }
+    var myCar3 = {};
+    for (var props in myCar){
+        if (myCar.hasOwnProperty(props)) {
+            myCar3[props] = myCar[props];
+        }
+    }
+
+    console.log(myCar.display());
+    console.log(myCar2);
+    console.log(myCar3);*/
+</script>
+</body>
+</html>

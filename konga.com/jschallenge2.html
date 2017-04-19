@@ -1,0 +1,55 @@
+<html><head>
+    <style>
+
+    </style>
+</head>
+<body>
+<label id="label"></label><br/>
+<input type="date" id="datepicker" required placeholder="enter DOB"/>
+<button id="check">Check</button>
+<script type="text/javascript">
+
+    // Wait until the document is ready for interaction:
+    window.addEventListener("DOMContentLoaded", function(){
+
+        // Get references to DOM elements needed:
+        var check = document.getElementById('check'),
+            datepicker = document.getElementById('datepicker'),
+            message  = [
+                "Please enter a value",
+                "you're not old enough",
+                "You are  old enough"
+            ],
+            label = document.getElementById('label');
+        label.style.color = "red";
+        // Set up an event callback for when the button gets clicked:
+        check.addEventListener("click", function(){
+
+
+            // Create a new Date that converts the input date
+            var dob =new Date(birthday.value);
+            alert(dob);
+
+            // Extract pieces of the date:
+            var month = dob.getMonth(); // months start counting from zero!
+            var day   = dob.getDate();
+            var year  = dob.getFullYear();
+
+            // Now that you have the pieces of the date, you can validate as you wish:
+            // e.g. if(year > 2016) { . . . }
+
+            // Write out date:
+            output.innerHTML = ++month + "/" + ++day + "/" + year;
+
+        });
+
+    });
+
+
+
+
+
+
+</script>
+
+</body></html>

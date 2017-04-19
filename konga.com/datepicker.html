@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>Jasper Tutorial</title>
+</head>
+
+
+<body>
+
+<input type="date" id="datepicker"/>
+<button id="check">Check</button><br>
+<label id="label"></label>
+
+
+<script type="text/javascript">
+    var _=function(element){
+        return document.getElementById(element);
+    }
+
+    var check=_('check'),
+        datepicker=_('datepicker'),
+        label=_('label'),
+        currentyear=new Date().getFullYear();
+
+    var report={
+        success: "You are old enough",
+        warning: "Enter a valid data",
+        error: "You are too young"
+    }
+
+    check.onclick=function(){
+        var ageyear=+datepicker.value.split('-')[0];
+        label.style.color = "red";
+        label.innerHTML=(!ageyear || ageyear===0 || ageyear > currentyear)? report.warning : (currentyear-ageyear>=16 ? report.success : report.error) ;
+    }
+
+</script>
+
+</body>
+</html>

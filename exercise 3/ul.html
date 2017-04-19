@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ul javascript</title>
+</head>
+<body>
+<h2>javascript</h2>
+<ul id="list">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+    <li>e</li>
+</ul>
+<ul id="list2">
+
+</ul>
+<input type="submit"  id="clickme" value="click me">
+<script>
+   /* function  clickMe() {
+        var firstList = document.getElementById("list");
+        var secondList = document.getElementById("list2");
+        while (firstList.childNodes.length > 0) {
+            secondList.appendChild(firstList.childNodes[0])
+        }
+    }*/
+  document.onclick = init;
+   function init() {
+       var button = document.getElementById("clickme");
+       button.onclick = clickMe();
+   }
+   var ul1 = document.getElementById("list");
+   var ul2 = document.getElementById("list2");
+   function clickMe() {
+       for (var li = ul1.getElementsByTagName("li"); li.length > 0;) {
+           ul2.appendChild(li[0])
+       }
+    }
+
+
+</script>
+</body>
+</html>
